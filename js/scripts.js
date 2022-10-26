@@ -33,7 +33,7 @@ function firstConstVal(word) {
 function createOutput() {
   const input = document.getElementById("input").value;
   const output = firstCharIsVowel(input);
-  document.getElementById("output-field").innerText = output.join("");
+  document.getElementById("output-field").innerText = output.join(" ");
 }
 
 window.addEventListener("load", function () {
